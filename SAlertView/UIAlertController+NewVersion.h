@@ -10,4 +10,7 @@
 
 @interface UIAlertController (NewVersion)
 
++ (void)AlertControllerWithCurrentVersion:(NSString *)version andTitle:(NSString *)title andController:(UIViewController *)controller;
+
+
 @end
