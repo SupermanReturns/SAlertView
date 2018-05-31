@@ -15,6 +15,7 @@
 		CF1EE9A320BFA71900756886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EE9A220BFA71900756886 /* main.m */; };
 		CF1EE9AD20BFA71900756886 /* SAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EE9AC20BFA71900756886 /* SAlertViewTests.m */; };
 		CF1EE9B820BFA71900756886 /* SAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EE9B720BFA71900756886 /* SAlertViewUITests.m */; };
+		CF1EE9CD20BFE9D200756886 /* UIAlertController+NewVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1EE9CB20BFE9D200756886 /* UIAlertController+NewVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF1EE9B320BFA71900756886 /* SAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1EE9B720BFA71900756886 /* SAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAlertViewUITests.m; sourceTree = "<group>"; };
 		CF1EE9B920BFA71900756886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF1EE9CB20BFE9D200756886 /* UIAlertController+NewVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+NewVersion.m"; sourceTree = "<group>"; };
+		CF1EE9CC20BFE9D200756886 /* UIAlertController+NewVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+NewVersion.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CF1EE99420BFA71600756886 /* AppDelegate.m */,
 				CF1EE99620BFA71600756886 /* ViewController.h */,
 				CF1EE99720BFA71600756886 /* ViewController.m */,
+				CF1EE9CC20BFE9D200756886 /* UIAlertController+NewVersion.h */,
+				CF1EE9CB20BFE9D200756886 /* UIAlertController+NewVersion.m */,
 				CF1EE99920BFA71600756886 /* Main.storyboard */,
 				CF1EE99C20BFA71900756886 /* Assets.xcassets */,
 				CF1EE99E20BFA71900756886 /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				CF1EE99820BFA71600756886 /* ViewController.m in Sources */,
 				CF1EE9A320BFA71900756886 /* main.m in Sources */,
+				CF1EE9CD20BFE9D200756886 /* UIAlertController+NewVersion.m in Sources */,
 				CF1EE99520BFA71600756886 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
